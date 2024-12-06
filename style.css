@@ -1,0 +1,118 @@
+/* header */
+
+/* variables */
+
+:root {
+
+  --main-bg-color: #333333;
+  --main-text-color: #ffffff;
+  --main-text-font: sans-serif;
+}
+
+
+
+
+
+
+
+.main-header {
+}
+
+/* remove underline */
+.main-header > nav > ul > li a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+}
+
+.main-header > nav > ul > li a:hover {
+  text-decoration: underline;
+}
+
+
+/* removel bulletpoints and padding */
+.main-header > nav > ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: grid;
+  grid-template-columns: 85px 85px 85px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--main-bg-color);
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 286px) {
+  .main-header > nav > ul {
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px 30px 30px;
+  }
+}
+.main-header > nav > ul > li{
+  padding: 10px;
+  
+
+}
+
+/* img text ting */
+
+.img-text-wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr ;
+justify-content: center;
+align-items: center;
+padding: 20px 30px;
+background-color: var(--main-bg-color);
+
+
+}
+@media screen and (max-width: 668px) {
+  .img-text-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }}
+
+.img-text-wrapper__image{
+  display: grid;
+place-items: center;
+}
+
+.img-text-wrapper__text{
+    padding: 20px;
+    color: var(--main-text-color);
+    font-family: var(--main-text-font);
+
+}
+
+.hero-wrapper__inner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  
+
+}
+
+
+.hero-wrapper__inner > img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.hero-wrapper__inner__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+  padding: 60px;
+  text-align: center;
+  z-index: 2;
+}
