@@ -1,19 +1,12 @@
-/* header */
+
 
 /* variables */
-
 :root {
 
   --main-bg-color: #333333;
   --main-text-color: #ffffff;
   --main-text-font: sans-serif;
 }
-
-
-
-
-
-
 
 
 
@@ -32,14 +25,14 @@
 /* removel bulletpoints and padding */
 .main-header > nav > ul {
   list-style-type: none;
-  padding-inline-start: 0px;
+  padding-inline-start: px;
   display: grid;
-  grid-template-columns: 85px 85px 85px;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: var(--main-bg-color);
-  padding: 20px 0;
+  padding: 20px 50px;
 }
 
 @media screen and (max-width: 286px) {
@@ -54,6 +47,36 @@
 
 }
 
+/* highligts */
+
+.highligts-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 40px;
+  background-color: var(--main-bg-color);
+}
+.highligts-wrapper__text1 {
+  text-align: center;
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+
+}
+
+.highligts-wrapper__text2 {
+  text-align: center;
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+
+}
+
+.highligts-wrapper__text3 {
+  text-align: center;
+  color: var(--main-text-color);
+  font-family: var(--main-text-font);
+
+}
 /* img text ting */
 
 .img-text-wrapper {
