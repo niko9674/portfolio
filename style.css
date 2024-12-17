@@ -99,6 +99,7 @@ z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr ;
   justify-content: center;
+  gap: 30px;
   align-items: center;
   padding: 20px 30px;
   background-color: var(--main-bg-color);
@@ -120,7 +121,8 @@ z-index: 2;
       padding: 20px;
       color: var(--main-text-color);
       font-family: var(--main-text-font);
-  
+      text-align: justify;
+  max-width: 500px;
   }
 
   
@@ -139,6 +141,7 @@ z-index: 2;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
+  padding: 30px 60px;
 }
   
   
