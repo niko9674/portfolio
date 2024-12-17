@@ -30,7 +30,7 @@ body{
 /* removel bulletpoints and padding */
 .main-header > nav > ul {
   list-style-type: none;
-  padding-inline-start: px;
+  padding-inline-start: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
@@ -178,7 +178,7 @@ z-index: 2;
 .highligts-block:hover .highligts-block__photo{
   opacity: 0.2;
 }
-*/
+
 
 /* KONTAKT SIDE */
 
