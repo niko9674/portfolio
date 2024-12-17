@@ -134,14 +134,14 @@ z-index: 2;
   font-family: var(--main-text-font);
   justify-content: center;
   align-items: center;
-  padding: 30px 60px 100px;
+  padding: 30px 190px 100px;
 }
 
 .highligts-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 20px;
-  padding: 30px 60px;
+
 }
   
   
