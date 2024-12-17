@@ -38,7 +38,13 @@ body{
   text-align: center;
   background-color: var(--main-bg-color);
   padding: 20px 50px;
+  max-width: 400px;
 }
+.main-header > nav {
+  display: grid;
+  place-items: center;
+}
+
 
 @media screen and (max-width: 286px) {
   .main-header > nav > ul {
