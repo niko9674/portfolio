@@ -1,3 +1,4 @@
+/*used Chatgbt to fix spelling mistakes. Prompt: fix the spelling mistakes in my code*/
 
 /* variables */
 :root {
@@ -159,8 +160,8 @@ body {
 }
 
 .highlights-block__link {
-  text-decoration: none; /* Removes the underline */
-  color: inherit; /* Optional: Inherits text color from the parent */
+  text-decoration: none; 
+  color: inherit; 
 }
 
 .highlights-block__photo {
